@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:orientation="vertical" android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:id="@+id/ll_toolbar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/spaceLarge"
+                android:layout_marginEnd="@dimen/spaceLarge"
+                android:layout_marginTop="@dimen/spaceNormal"
+                android:layout_marginBottom="@dimen/spaceLarge"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/img_menu_back"
+                    android:layout_width="wrap_content"
+                    android:layout_height="@dimen/option_back_height"
+                    android:src="@drawable/option_back" />
+
+                <TextView
+                    android:id="@+id/toolbar_txt"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/menu"
+                    android:textColor="@color/colorBlack"
+                    android:textSize="@dimen/xxLargeTextSize"
+                    android:textStyle="bold"
+                    android:layout_marginStart="@dimen/spaceNormal" />
+
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginBottom="@dimen/spaceNormal"
+                android:background="@color/colorLightGrey2"/>
+
+            <EditText
+                android:id="@+id/search_bar"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/spaceXXLarge"
+                android:layout_marginStart="@dimen/spaceXXXLarge"
+                android:layout_marginEnd="@dimen/spaceLarge"
+                android:drawableStart="@drawable/search"
+                android:background="@android:color/transparent"
+                android:hint="@string/search"/>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginStart="@dimen/spaceLarge"
+                android:layout_marginEnd="@dimen/spaceLarge"
+                android:layout_marginTop="@dimen/spaceSmall"
+                android:layout_marginBottom="@dimen/spaceSmall"
+                android:background="@color/colorLightBlue"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/gap_spc"
+                android:layout_marginBottom="@dimen/gap_spc"
+                android:layout_marginStart="@dimen/spaceXLarge"
+                android:layout_marginEnd="@dimen/spaceXLarge"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/menu_category"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/category"
+                    android:textColor="@color/colorBlack"
+                    android:textSize="@dimen/xxxLargeTextSize"
+                    android:textStyle="bold"
+                    android:layout_weight="0"/>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:gravity="end"
+                    android:layout_weight="5">
+                    <TextView
+                        android:id="@+id/menu_see_all"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="@dimen/gap_spc"
+                        android:textColor="@color/colorOrange"
+                        android:layout_gravity="center"
+                        android:text="@string/see_all" />
+
+                </LinearLayout>
+            </LinearLayout>
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/rv_menu"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:clipToPadding = "false"
+                android:paddingStart="@dimen/spaceSmall"
+                android:paddingEnd="@dimen/spaceLarge"/>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginTop="@dimen/spaceSmall"
+                android:layout_marginBottom="@dimen/spaceNormal"
+                android:background="@color/colorLightGrey2"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/spaceLarge"
+                android:text="@string/menu"
+                android:textColor="@color/colorBlack"
+                android:textSize="@dimen/xxxLargeTextSize"
+                android:textStyle="bold"/>
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/rv_menu2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:clipToPadding = "false"
+                android:paddingStart="@dimen/spaceSmall"
+                android:paddingEnd="@dimen/spaceLarge"/>
+
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+</layout>

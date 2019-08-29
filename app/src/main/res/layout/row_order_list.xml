@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <View
+        android:id="@+id/cart_line0"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginBottom="@dimen/spaceLarge"
+        android:background="@color/colorLightGrey2"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/rvTxt_order_amt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="1x"
+        android:paddingRight="@dimen/spaceSmall"
+        android:textColor="@color/colorLightBlue"
+        android:textStyle="bold"
+        android:layout_weight="1"/>
+
+    <TextView
+        android:id="@+id/rvTxt_order_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Matcha Latte with Red Beans"
+        android:paddingRight="@dimen/spaceLarge"
+        android:textColor="@color/colorBlack"
+        android:textSize="@dimen/normalTextSize"
+        android:textStyle="bold"
+        android:layout_weight="3"/>
+
+    <TextView
+        android:id="@+id/rvTxt_order_price"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorBlack"
+        android:textSize="@dimen/normalTextSize"
+        android:text="AUD300.00"
+        android:textStyle="bold"
+        android:gravity="right"
+        android:layout_weight="1"/>
+
+    </LinearLayout>
+
+</LinearLayout>

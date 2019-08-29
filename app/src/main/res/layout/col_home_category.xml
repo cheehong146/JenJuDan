@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/spaceSmall">
+
+        <com.makeramen.roundedimageview.RoundedImageView
+            android:id="@+id/iv_category"
+            android:layout_width="@dimen/rv_category_width"
+            android:layout_height="@dimen/rv_category_height"
+            android:scaleType="centerCrop"
+            android:src="@drawable/holderimg_hongkong"
+            app:riv_corner_radius="10dip" />
+
+        <TextView
+            android:id="@+id/tv_category_name"
+            android:layout_width="@dimen/rv_category_text_width"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/iv_category"
+            android:ellipsize="end"
+            android:gravity="bottom|left"
+            android:maxLines="1"
+            android:text="Cubaan Store name"
+            android:layout_marginStart="@dimen/spaceXSmallEven"
+            android:layout_marginTop="@dimen/spaceSmall"
+            android:textColor="@color/colorBlack"
+            android:textSize="@dimen/normalTextSize"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tv_category_location"
+            android:layout_width="@dimen/rv_category_text_width"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tv_category_name"
+            android:ellipsize="end"
+            android:gravity="bottom|left"
+            android:maxLines="1"
+            android:text="CubaanLocation"
+            android:layout_marginStart="@dimen/spaceXSmallEven"
+            android:layout_marginBottom="@dimen/spaceSmall"
+            android:textColor="@color/colorLightBlue"
+            android:textSize="@dimen/normalTextSize" />
+
+
+    </RelativeLayout>
+</layout>

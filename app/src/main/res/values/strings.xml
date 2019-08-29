@@ -1,0 +1,124 @@
+<resources>
+    <string name="app_name">JenJuDan</string>
+
+    <string name="sign_in">Sign In</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="login">Login</string>
+    <string name="register">Register</string>
+    <string name="fb_login">Login Via Facebook</string>
+    <string name="don_hav_acc">Don\'t Have Account?</string>
+    <string name="fgt_pwd">Forgot Password?\u0020\u0020\u0020</string>
+    <string name="hint_login_enter_password">Password</string>
+    <string name="hint_login_enter_email">Email</string>
+    <string name="email_error">Email not found.</string>
+    <string name="password_error">You password is invalid</string>
+
+    <!--common-->
+    <string name="separator">\u0020\u0020\u0020|\u0020\u0020\u0020</string>
+
+    <!--splash screen-->
+    <string name="tutorial">Tutorial</string>
+    <string name="skip">Skip</string>
+    <string name="Next">Next</string>
+    <string name="getstarted">Get Started</string>
+
+    <!--registration-->
+    <string name="reg_hint_email">Email address</string>
+    <string name="reg_hint_poscode">Postcode</string>
+    <string name="reg_hint_fname">First Name</string>
+    <string name="reg_hint_lname">Last Name</string>
+    <string name="reg_hint_mobile">Mobile No</string>
+    <string name="reg_hint_confirm_pwd">Confirm Password</string>
+    <string name="ev_title">Email Activation</string>
+    <string name="ev_text">Please enter the verification code we sent to your email address</string>
+    <string name="ev_success">Your account has successfully been verified.\nYou\'re in good hands now. </string>
+    <string name="ev_verify">Verify</string>
+    <string name="ev_continue">Continue</string>
+    <string name="ev_nocode">Didn\'t get the code?</string>
+    <string name="already_have">Already have an account?</string>
+    <string name="ev_resend">Resend</string>
+    <string name="ev_verify_txt">Verify Account</string>
+    <string name="youre_good">You\'re Good!</string>
+
+    <!--navigations-->
+    <string name="bottom_navigation_home">Home</string>
+    <string name="menu">Menu</string>
+    <string name="bottom_navigation_profile">Profile</string>
+    <string name="setting">Setting</string>
+    <string name="terms_of_use">Terms Of Use</string>
+    <string name="about_us">About Us</string>
+    <string name="contact_app_admin">Contact App Admin</string>
+    <string name="logout">Logout</string>
+    <string name="about_food">About Food</string>
+    <string name="our_mission">Our Mission</string>
+    <string name="apps_terms">Apps Terms Of Use</string>
+
+    <!--home-->
+    <string name="features">Features</string>
+    <string name="see_all">See All</string>
+    <string name="category">Category</string>
+    <string name="location">Location</string>
+
+    <!--menu-product-->
+    <string name="search">\u0020\u0020Search</string>
+
+    <!--profile-->
+    <string name="open_hours">Open Hours</string>
+    <string name="monday">Monday</string>
+    <string name="tuesday">Tuesday</string>
+    <string name="wednesday">Wednesday</string>
+    <string name="thursday">Thursday</string>
+    <string name="friday">Friday</string>
+    <string name="saturday">Saturday</string>
+    <string name="sunday">Sunday</string>
+    <string name="redemption">Redemption</string>
+    <string name="membershipp_no">Membership No</string>
+    <string name="redeem">Redeem</string>
+
+    <!--redeem-->
+    <string name="available_points">Available points</string>
+    <string name="pts">pts</string>
+    <string name="proceed">Proceed</string>
+
+    <!--order-->
+    <string name="buy">Buy</string>
+    <string name="terms_and_conditions">Terms and Conditions</string>
+    <string name="cart">Cart</string>
+    <string name="subtotal">Subtotal</string>
+    <string name="contact_info">Contact Info</string>
+    <string name="enter_contact">Please Enter Contact Info</string>
+    <string name="delivery_details">Delivery details</string>
+    <string name="delivery_fee">Delivery Fee</string>
+    <string name="delivery_time">Delivery time</string>
+    <string name="payment">Payment</string>
+    <string name="payment_success">Payment Success</string>
+    <string name="have_voucher">Do you have a voucher?</string>
+    <string name="agree_tnc">By completing this order, I agree to all Terms &amp; Conditions</string>
+    <string name="total">Total</string>
+    <string name="place_order">Place Order</string>
+    <string name="view_your_order">View Your Order</string>
+    <string name="this_history">This History</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+    <string-array name="category">
+        <item>Category 1</item>
+        <item>Category 2</item>
+        <item>Category 3</item>
+        <item>Category 4</item>
+        <item>Category 5</item>
+    </string-array>
+
+    <string-array name="location">
+        <item>Location 1</item>
+        <item>Location 2</item>
+        <item>Location 3</item>
+        <item>Location 4</item>
+        <item>Location 5</item>
+    </string-array>
+    <!--<string name=""></string>-->
+
+
+</resources>

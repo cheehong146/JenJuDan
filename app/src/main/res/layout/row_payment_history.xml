@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/spaceNormal">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginStart="@dimen/spaceXLarge"
+            android:layout_marginEnd="@dimen/spaceXLarge">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_weight="2">
+                <TextView
+                    android:id="@+id/payment_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/colorBlack"
+                    android:textSize="@dimen/normalTextSize"
+                    android:text="sadasdasdasdasd"
+                    android:textStyle="bold"/>
+
+                <TextView
+                    android:id="@+id/purchase_detail"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/colorLightGrey"
+                    android:textSize="@dimen/normalTextSize"
+                    android:text="dasdasdasdasd"/>
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/payment_price"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorBlack"
+                android:textSize="@dimen/xLargeTextSize"
+                android:text="sdasdawfaw"
+                android:textStyle="bold"
+                android:gravity="end"
+                android:layout_gravity="center"
+                android:layout_weight="3"/>
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_below="@+id/order_product"
+            android:layout_marginTop="@dimen/spaceNormal"
+            android:background="@color/colorLightGrey2"/>
+    </LinearLayout>
+</layout>

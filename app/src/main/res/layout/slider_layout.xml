@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/tut_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="@dimen/spaceXXLarge"
+        android:layout_marginBottom="@dimen/spaceLarge">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/tutorial"
+            android:layout_gravity="center_vertical"
+            android:gravity="center"
+            android:layout_marginStart="@dimen/negate_40"
+            android:textSize="@dimen/xxLargeTextSize"
+            android:textColor="@color/colorBlack"
+            android:textStyle="bold"
+            android:id="@+id/toolbar_txt" />
+
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/slider_image"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tut_toolbar"
+        android:layout_marginStart="@dimen/spaceXXXLarge"
+        android:layout_marginEnd="@dimen/spaceXXXLarge"
+        android:src="@drawable/tutorial1"/>
+
+    <TextView
+        android:id="@+id/slider_heading"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/slider_image"
+        android:text="Het Geruime Tadeen"
+        android:layout_gravity="center_horizontal"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:paddingLeft="@dimen/spaceXLarge"
+        android:paddingRight="@dimen/spaceXLarge"
+        android:textSize="@dimen/xxLargeTextSize"
+        android:textColor="@color/colorBlue" />
+
+    <TextView
+        android:id="@+id/slider_desc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/slider_heading"
+        android:layout_marginTop="@dimen/spaceXLarge"
+        android:text="Larem Ipdum dolor sit amet, consectetur\nadipiscielit, sed do eiusmod tempar incididunt\nlabore et dolare magna aliqua."
+        android:layout_gravity="center_horizontal"
+        android:gravity="center"
+        android:paddingLeft="@dimen/spaceXXXLarge"
+        android:paddingRight="@dimen/spaceXXXLarge"
+        android:textSize="@dimen/normalTextSize"
+        android:textColor="@color/colorBlack" />
+<!--
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/spaceXLarge"
+        android:orientation="horizontal"
+        android:gravity="center">
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/skip"
+            android:textAllCaps="false"
+            android:layout_marginStart="@dimen/spaceXLarge"
+            android:layout_marginEnd="@dimen/spaceNormal"
+            android:background="@color/colorLightBlue3"
+            android:layout_weight="2.5"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/spaceNormal"
+            android:layout_marginEnd="@dimen/spaceXLarge"
+            android:text="@string/Next"
+            android:textAllCaps="false"
+            android:background="@color/colorLightBlue3"
+            android:layout_weight="2.5"/>
+    </LinearLayout>
+-->
+
+</RelativeLayout>

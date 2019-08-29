@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ScrollView android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:id="@+id/ll_toolbar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/spaceLarge"
+                android:layout_marginBottom="@dimen/spaceLarge"
+                android:gravity="center">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/ev_title"
+                    android:layout_gravity="center"
+                    android:textSize="@dimen/xxLargeTextSize"
+                    android:textColor="@color/colorBlack"
+                    android:textStyle="bold"
+                    android:id="@+id/toolbar_txt" />
+
+            </LinearLayout>
+
+            <ScrollView android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/colorWhite">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/ev_img"
+                        android:layout_width="@dimen/login_img_width"
+                        android:layout_height="@dimen/ev_verify_img_height"
+                       android:layout_gravity="center_horizontal"
+                        android:layout_marginTop="@dimen/spaceXXXLarge"
+                        android:src="@drawable/ev_verify" />
+
+                    <TextView
+                        android:id="@+id/ev_verify_txt"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/spaceXXLarge"
+                        android:text="@string/ev_verify_txt"
+                        android:layout_gravity="center_horizontal"
+                        android:gravity="center"
+                        android:paddingLeft="@dimen/spaceXLarge"
+                        android:paddingRight="@dimen/spaceXLarge"
+                        android:textSize="@dimen/xxLargeTextSize"
+                        android:textColor="@color/colorBlue" />
+
+                    <TextView
+                        android:id="@+id/ev_txt"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/spaceXXLarge"
+                        android:text="@string/ev_text"
+                        android:layout_gravity="center_horizontal"
+                        android:gravity="center"
+                        android:paddingLeft="@dimen/spaceXXXLarge"
+                        android:paddingRight="@dimen/spaceXXXLarge"
+                        android:textSize="@dimen/normalTextSize"
+                        android:textColor="@color/colorBlack" />
+
+                    <LinearLayout
+                        android:id="@+id/ll_ev_code"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:layout_marginTop="@dimen/spaceXLarge"
+                        android:layout_marginStart="@dimen/spaceLarge"
+                        android:layout_marginEnd="@dimen/spaceLarge"
+                        android:gravity="center_horizontal">
+
+                        <EditText
+                            android:id="@+id/code_1"
+                            android:layout_width="@dimen/shapeSize1"
+                            android:layout_height="@dimen/shapeSize1"
+                            android:background="@drawable/code_txtbackground"
+                            android:layout_marginEnd="@dimen/shapeGap"
+                            android:inputType="textEmailAddress"
+                            android:maxLines="1"
+                            android:textSize="@dimen/normalTextSize" />
+
+                        <EditText
+                            android:id="@+id/code_2"
+                            android:layout_width="@dimen/shapeSize1"
+                            android:layout_height="@dimen/shapeSize1"
+                            android:background="@drawable/code_txtbackground"
+                            android:layout_marginEnd="@dimen/shapeGap"
+                            android:inputType="textEmailAddress"
+                            android:maxLines="1"
+                            android:textSize="@dimen/normalTextSize" />
+
+                        <EditText
+                            android:id="@+id/code_3"
+                            android:layout_width="@dimen/shapeSize1"
+                            android:layout_height="@dimen/shapeSize1"
+                            android:background="@drawable/code_txtbackground"
+                            android:layout_marginEnd="@dimen/shapeGap"
+                            android:inputType="textEmailAddress"
+                            android:maxLines="1"
+                            android:textSize="@dimen/normalTextSize" />
+
+                        <EditText
+                            android:id="@+id/code_4"
+                            android:layout_width="@dimen/shapeSize1"
+                            android:layout_height="@dimen/shapeSize1"
+                            android:background="@drawable/code_txtbackground"
+                            android:inputType="textEmailAddress"
+                            android:maxLines="1"
+                            android:textSize="@dimen/normalTextSize" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/ll_resent"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:layout_marginTop="@dimen/spaceSmall"
+                        android:gravity="center_horizontal">
+
+                        <TextView
+                            android:id="@+id/register"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/ev_nocode"
+                            android:textColor="@color/colorBlack"/>
+
+                        <TextView
+                            android:id="@+id/register_link"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="@dimen/gap_spc"
+                            android:textColor="@color/colorOrange"
+                            android:text="@string/ev_resend" />
+
+                    </LinearLayout>
+
+                    <Button
+                        android:id="@+id/ev_verify"
+                        android:background="@color/colorLightBrown"
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/std_btn_height"
+                        android:text="@string/ev_verify"
+                        android:layout_marginTop="@dimen/spaceXXLarge"
+                        android:textColor="@color/colorWhite"
+                        android:textSize="@dimen/normalTextSize"
+                        android:layout_marginStart="@dimen/spaceLarge"
+                        android:layout_marginEnd="@dimen/spaceLarge"
+                        android:layout_marginBottom="@dimen/spaceLarge"
+                        android:textAllCaps="false" />
+                </LinearLayout>
+            </ScrollView>
+        </LinearLayout>
+    </ScrollView>
+</layout>
