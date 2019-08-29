@@ -59,9 +59,6 @@
         <activity
             android:name=".user.activity.MainActivity"
             android:theme="@style/AppTheme.NoActionBar" />
-        <activity
-            android:name=".user.activity.Dialogtest"
-            android:theme="@style/AppTheme.NoActionBar" />
     </application>
 
 </manifest>

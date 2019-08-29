@@ -1,19 +1,13 @@
 package com.itparadise.jenjudan.user.adapter.Redemption;
 
 
-import android.app.Dialog;
 import android.content.Context;
-import android.content.Intent;
-import android.os.Bundle;
 import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.view.WindowManager;
 import android.widget.Button;
 import android.widget.ImageView;
-import android.widget.TableRow;
-import android.widget.TextView;
 
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
@@ -23,13 +17,9 @@ import androidx.recyclerview.widget.RecyclerView;
 import com.bumptech.glide.Glide;
 import com.google.android.material.bottomnavigation.BottomNavigationView;
 import com.itparadise.jenjudan.R;
-import com.itparadise.jenjudan.user.Dialog.Dialog_Redeem;
 import com.itparadise.jenjudan.user.Dialog.Dialog_Redeem2;
-import com.itparadise.jenjudan.user.activity.Dialogtest;
 
 import java.util.ArrayList;
-
-import fr.tvbarthel.lib.blurdialogfragment.BlurDialogFragment;
 
 /**
  * Created by itparadise on 22/8/2019
